@@ -1,0 +1,20 @@
+=======================================
+	For at Home Financial Application
+=======================================
+
+Goals: To help automate financials, help save money
+
+Needs:
+	1. Fincial Record (Database) - mysql or google drive. Google Drive as primary/ mysql as backup.
+	2. Access to financial records - Scraping banks is difficult, download csv of transactions is easier to work with
+	3. Docker Container so its easy to transport
+	4. Machine Learning algorithm to label transactions (MLA)
+
+Concept:
+	Financial transactions can be sub divided into categories for the month (Food, Dates, Gas, etc). MLA will label these and subtract them 
+	from the alloted amount. Over time analysis of this process will lead to estimation on how much you need and where you can save.
+
+To Do:
+	Google Drive API accessible database
+	MLA - Python
+	Dockerfile 		
